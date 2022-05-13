@@ -1,6 +1,6 @@
 .global _start
 
-.section .text
+.section .text #add changes
 _start:
     movq src, %rax
     movq dst, %rbx
